@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Princess Booth</string>
+    <string name="app_id">203724263116671</string>
+    <string name="exception">Exception: %1$s</string>
+
+
+
+    
+    <string name="action_share">Share</string>
+    <string name="toast_error_camera_preview">Can\'t initialize camera preview.</string>
+    <string name="toast_error_save_picture">Can\'t save picture on external storage.</string>
+    <string name="content_description_take_picture">Take picture</string>
+
+</resources>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:gravity="center_horizontal"
+    tools:context=".PhotoBoothActivity" >
+
+    <fragment
+        android:id="@+id/camera_fragment"
+        android:name="com.xecke.princessphotobooth.fragments.CameraFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top" />
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal" >
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_horizontal"
+                android:orientation="horizontal" >
+
+                <!-- TODO: Add selectable images that go in the list here. -->
+
+                <ImageButton
+                    android:id="@+id/dress_btn"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/border"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/dress" />
+
+                <ImageButton
+                    android:id="@+id/mirror_btn"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/border"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/mirror" />
+
+                <ImageButton
+                    android:id="@+id/tiara_btn"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/border"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/tiara" />
+
+                <ImageButton
+                    android:id="@+id/necklace_btn"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/border"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/necklace" />
+
+                <ImageButton
+                    android:id="@+id/wand_btn"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/border"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/wand" />
+
+                <ImageButton
+                    android:id="@+id/frog_btn"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/border"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/frog" />
+
+                <ImageButton
+                    android:id="@+id/castle_btn"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/border"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/castle" />
+
+                <ImageButton
+                    android:id="@+id/trolley_btn"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/border"
+                    android:layout_margin="5dp"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/trolley" /> 
+
+                <ImageButton
+                    android:id="@+id/cloud_btn"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/border"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/cloud" />
+
+                <ImageButton
+                    android:id="@+id/perfume_btn"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/border"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/perfume" />
+
+                <ImageButton
+                    android:id="@+id/shoe_btn"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/border"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/shoe" />
+            </LinearLayout>
+        </ScrollView>
+    </HorizontalScrollView>
+
+</FrameLayout>
