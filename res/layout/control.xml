@@ -14,6 +14,89 @@
         android:background="@null"
         android:paddingLeft="60dp"
         android:src="@drawable/dress" />
+    
+    <ImageView
+        android:id="@+id/dress2_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@null"
+        android:src="@drawable/dress2" />
+    
+    <ImageView
+        android:id="@+id/dress3_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@null"
+        android:src="@drawable/dress3" />
+    
+    
+    <ImageView
+        android:id="@+id/dress4_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@null"
+        android:src="@drawable/dress4" />
+    
+    
+    <ImageView
+        android:id="@+id/dress5_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@null"
+        android:src="@drawable/dress5" />
+    
+    <ImageView
+        android:id="@+id/dress6_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@null"
+        android:src="@drawable/dress6" />
+    
+    <ImageView
+        android:id="@+id/dress7_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@null"
+        android:src="@drawable/dress7" />
+    
+    <ImageView
+        android:id="@+id/dress8_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@null"
+        android:src="@drawable/dress8" />
+    
+    <ImageView
+        android:id="@+id/dress9_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@null"
+        android:src="@drawable/dress9" />
+    
+    <ImageView
+        android:id="@+id/dress10_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@null"
+        android:src="@drawable/dress10" />
+    
+    <ImageView
+        android:id="@+id/dress11_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@null"
+        android:src="@drawable/dress11" />
+    
 
     <ImageView
         android:id="@+id/mirror_iv"

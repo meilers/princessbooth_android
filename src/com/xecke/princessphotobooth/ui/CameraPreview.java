@@ -87,7 +87,7 @@ public class CameraPreview extends SurfaceView implements MultiTouchObjectCanvas
     
 	// TODO: add drawables here
     // They come from the res/drawable-?dpi folders
-	private static final int[] IMAGES = { R.drawable.dress, R.drawable.tiara, R.drawable.mirror, R.drawable.wand, R.drawable.necklace, R.drawable.shoe, R.drawable.frog, R.drawable.castle, R.drawable.trolley, R.drawable.cloud, R.drawable.perfume };
+	private static final int[] IMAGES = { R.drawable.dress, R.drawable.dress2, R.drawable.dress3, R.drawable.dress4, R.drawable.dress5, R.drawable.dress6, R.drawable.dress7, R.drawable.dress8, R.drawable.dress9, R.drawable.dress10, R.drawable.dress11, R.drawable.tiara, R.drawable.mirror, R.drawable.wand, R.drawable.necklace, R.drawable.shoe, R.drawable.frog, R.drawable.castle, R.drawable.trolley, R.drawable.cloud, R.drawable.perfume };
 
 	private ArrayList<Img> mImages = new ArrayList<Img>(); 
 

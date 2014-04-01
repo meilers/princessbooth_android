@@ -22,8 +22,8 @@ public class PrincessPhotoboothApplication extends Application {
 	}
 
 	
-	public static final Context getContext() {
-		return sContext;
-	}
+	public static final Context getContext() { 
+		return sContext; 
+	} 
 
 }

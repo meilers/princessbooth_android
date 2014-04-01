@@ -56,7 +56,7 @@ public class CameraActivity extends BaseFragmentActivity implements CameraFragme
 
 	private static final String TAG = CameraActivity.class.getSimpleName();
 	
-	private Picture mDressPic, mWandPic, mMirrorPic,
+	private Picture mDressPic, mDressPic2, mDressPic3, mDressPic4, mDressPic5, mDressPic6, mDressPic7, mDressPic8, mDressPic9, mDressPic10, mDressPic11, mWandPic, mMirrorPic,
 			mNecklacePic, mTiaraPic, mShoePic,
 			mFrogPic, mCastlePic, mPerfumePic,
 			mCloudPic, mTrolleyPic;
@@ -305,6 +305,16 @@ public class CameraActivity extends BaseFragmentActivity implements CameraFragme
 
 		// TODO: add ids here. They come from the activity_camera.xml file in the res/layout folder
 		mDressPic.setVisibility(View.GONE);
+		mDressPic2.setVisibility(View.GONE);
+		mDressPic3.setVisibility(View.GONE);
+		mDressPic4.setVisibility(View.GONE);
+		mDressPic5.setVisibility(View.GONE);
+		mDressPic6.setVisibility(View.GONE);
+		mDressPic7.setVisibility(View.GONE);
+		mDressPic8.setVisibility(View.GONE);
+		mDressPic9.setVisibility(View.GONE);
+		mDressPic10.setVisibility(View.GONE);
+		mDressPic11.setVisibility(View.GONE);
 		mWandPic.setVisibility(View.GONE);
 		mMirrorPic.setVisibility(View.GONE);
 		mNecklacePic.setVisibility(View.GONE);
@@ -320,6 +330,16 @@ public class CameraActivity extends BaseFragmentActivity implements CameraFragme
 		
 		
 		ImageButton dressIb = (ImageButton) findViewById(R.id.dress_btn);
+		ImageButton dressIb2 = (ImageButton) findViewById(R.id.dress_btn2);
+		ImageButton dressIb3 = (ImageButton) findViewById(R.id.dress_btn3);
+		ImageButton dressIb4 = (ImageButton) findViewById(R.id.dress_btn4);
+		ImageButton dressIb5 = (ImageButton) findViewById(R.id.dress_btn5);
+		ImageButton dressIb6 = (ImageButton) findViewById(R.id.dress_btn6);
+		ImageButton dressIb7 = (ImageButton) findViewById(R.id.dress_btn7);
+		ImageButton dressIb8 = (ImageButton) findViewById(R.id.dress_btn8);
+		ImageButton dressIb9 = (ImageButton) findViewById(R.id.dress_btn9);
+		ImageButton dressIb10 = (ImageButton) findViewById(R.id.dress_btn10);
+		ImageButton dressIb11 = (ImageButton) findViewById(R.id.dress_btn11);
 		ImageButton wandIb = (ImageButton) findViewById(R.id.wand_btn);
 		ImageButton mirrorIb = (ImageButton) findViewById(R.id.mirror_btn);
 		ImageButton necklaceIb = (ImageButton) findViewById(R.id.necklace_btn);
@@ -339,6 +359,78 @@ public class CameraActivity extends BaseFragmentActivity implements CameraFragme
 			}
 		});
 
+		dressIb2.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				setVisibility(mDressPic2);
+			}
+		});
+		
+		dressIb3.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				setVisibility(mDressPic3);
+			}
+		});
+		
+		dressIb4.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				setVisibility(mDressPic4);
+			}
+		});
+		
+		dressIb5.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				setVisibility(mDressPic5);
+			}
+		});
+		
+		dressIb6.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				setVisibility(mDressPic6);
+			}
+		});
+		
+		dressIb7.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				setVisibility(mDressPic7);
+			}
+		});
+		
+		dressIb8.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				setVisibility(mDressPic8);
+			}
+		});
+		
+		dressIb9.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				setVisibility(mDressPic9);
+			}
+		});
+		
+		dressIb10.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				setVisibility(mDressPic10);
+			}
+		});
+		
+
+		dressIb11.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				setVisibility(mDressPic11);
+			}
+		});
+
+		
 		wandIb.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
@@ -415,6 +507,16 @@ public class CameraActivity extends BaseFragmentActivity implements CameraFragme
 		mWandPic.setOnTouchListener(windowWidth, windowHeight);
 		mMirrorPic.setOnTouchListener(windowWidth, windowHeight);
 		mDressPic.setOnTouchListener(windowWidth, windowHeight);
+		mDressPic2.setOnTouchListener(windowWidth, windowHeight);
+		mDressPic3.setOnTouchListener(windowWidth, windowHeight);
+		mDressPic4.setOnTouchListener(windowWidth, windowHeight);
+		mDressPic5.setOnTouchListener(windowWidth, windowHeight);
+		mDressPic6.setOnTouchListener(windowWidth, windowHeight);
+		mDressPic7.setOnTouchListener(windowWidth, windowHeight);
+		mDressPic8.setOnTouchListener(windowWidth, windowHeight);
+		mDressPic9.setOnTouchListener(windowWidth, windowHeight);
+		mDressPic10.setOnTouchListener(windowWidth, windowHeight);
+		mDressPic11.setOnTouchListener(windowWidth, windowHeight);
 		mNecklacePic.setOnTouchListener(windowWidth, windowHeight);
 		mTiaraPic.setOnTouchListener(windowWidth, windowHeight);
 		mShoePic.setOnTouchListener(windowWidth, windowHeight);
@@ -434,6 +536,27 @@ public class CameraActivity extends BaseFragmentActivity implements CameraFragme
 	private void loadPictures() {
 		mDressPic = new Picture(
 				(ImageView) findViewById(R.id.dress_iv), R.drawable.dress, this);
+		mDressPic2 = new Picture(
+				(ImageView) findViewById(R.id.dress2_iv), R.drawable.dress2, this);
+		mDressPic3 = new Picture(
+				(ImageView) findViewById(R.id.dress3_iv), R.drawable.dress3, this);
+		mDressPic4 = new Picture(
+				(ImageView) findViewById(R.id.dress4_iv), R.drawable.dress4, this);
+		mDressPic5 = new Picture(
+				(ImageView) findViewById(R.id.dress5_iv), R.drawable.dress5, this);
+		mDressPic6 = new Picture(
+				(ImageView) findViewById(R.id.dress6_iv), R.drawable.dress6, this);
+		mDressPic7 = new Picture(
+				(ImageView) findViewById(R.id.dress7_iv), R.drawable.dress7, this);
+		mDressPic8 = new Picture(
+				(ImageView) findViewById(R.id.dress8_iv), R.drawable.dress8, this);
+		mDressPic9 = new Picture(
+				(ImageView) findViewById(R.id.dress9_iv), R.drawable.dress9, this);
+		mDressPic10 = new Picture(
+				(ImageView) findViewById(R.id.dress10_iv), R.drawable.dress10, this);
+		mDressPic11 = new Picture(
+				(ImageView) findViewById(R.id.dress11_iv), R.drawable.dress11, this);
+		
 		mWandPic = new Picture((ImageView) findViewById(R.id.wand_iv), R.drawable.wand, this);
 		mMirrorPic = new Picture((ImageView) findViewById(R.id.mirror_iv), R.drawable.mirror,
 				this);

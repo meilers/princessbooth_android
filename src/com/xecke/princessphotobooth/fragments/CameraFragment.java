@@ -339,7 +339,7 @@ public class CameraFragment extends Fragment implements SurfaceHolder.Callback, 
     /**
      * On camera preview surface getting destroyed.
      */
-    @Override
+    @Override 
     public void surfaceDestroyed(SurfaceHolder holder) {
         // We don't need to handle this case as the fragment takes care of
         // releasing the camera when needed.

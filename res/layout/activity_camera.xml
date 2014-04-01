@@ -40,6 +40,106 @@
                     android:padding="10dp"
                     android:scaleType="fitCenter"
                     android:src="@drawable/dress" />
+                
+                <ImageButton
+                    android:id="@+id/dress_btn2"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/border"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/dress2" />
+                
+                <ImageButton
+                    android:id="@+id/dress_btn3"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/border"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/dress3" />
+                
+                <ImageButton
+                    android:id="@+id/dress_btn4"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/border"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/dress4" />
+                
+                <ImageButton
+                    android:id="@+id/dress_btn5"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/border"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/dress5" />
+                
+                <ImageButton
+                    android:id="@+id/dress_btn6"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/border"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/dress6" />
+                
+                <ImageButton
+                    android:id="@+id/dress_btn7"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/border"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/dress7" />
+                
+                <ImageButton
+                    android:id="@+id/dress_btn8"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/border"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/dress8" />
+                
+                <ImageButton
+                    android:id="@+id/dress_btn9"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/border"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/dress9" />
+                
+                <ImageButton
+                    android:id="@+id/dress_btn10"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/border"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/dress10" />
+                
+                <ImageButton
+                    android:id="@+id/dress_btn11"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/border"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/dress11" />
 
                 <ImageButton
                     android:id="@+id/mirror_btn"
